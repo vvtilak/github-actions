@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_tilakgitrepo_1_1689930753413-pr-trigger-input-set
+  identifier: Build_tilakgitrepo_1_1689930753413prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_tilakgitrepo_1_1689930753413
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
